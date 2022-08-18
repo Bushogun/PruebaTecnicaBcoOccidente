@@ -1,0 +1,26 @@
+.container-fluid{
+border-style: solid;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-color: #ddd;
+}
+
+#Isotipo-nav {
+    width: 40px;
+    margin: 5px;
+    margin-left: 40px;
+}
+
+#Logotipo-nav {
+    width: 220px;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.navbar-toggler{
+    border-style: none;
+    : aqua;
+}
+
+{/*@media (max-width: 768px) {*/}
