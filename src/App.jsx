@@ -2,9 +2,10 @@ import React from 'react';
 import { Header } from './Header/Header';
 import { Body } from './Body/Body';
 import { Footer } from './Footer/Footer';
-import { ContextMenu } from './ContextMenu/ContextMenu';
-import { useState } from 'react';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { ContextMenu } from './ContextMenu/ContextMenu'
+import { ShowContextMenu } from './ShowContextMenu/ShowContextMenu';
+import { BackButton } from './BackButton/BackButton'
+import { useState, useEffect } from 'react';
 
 const dataContextMenu = [
   {text: 'operacion', selected: true}, 
@@ -13,12 +14,15 @@ const dataContextMenu = [
 ];
 
 function App() {
+ 
   return (
   <React.Fragment>
       <Header /> 
-     <h1>You're doing good</h1>
+      <BackButton/>
     <Body />
-    <ContextMenu /> 
+    <ContextMenu />
+    <ShowContextMenu /> 
+
     <Footer />
     </React.Fragment>
   );

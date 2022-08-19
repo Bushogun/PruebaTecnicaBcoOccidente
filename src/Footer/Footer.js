@@ -4,10 +4,12 @@ import footer from './Footer.css'
 function Footer() {
   return (
     <React.Fragment>
-      <img className='footer' id= "Logotipo-GrupoAVAL"
-        src='https://i.imgur.com/tOYGbin.png'
-        alt='Logotipo Grupo AVAL'
-        />
+      <div className='d-flex align-items-end flex-column'>
+        <img className='logo-footer' id= "Logotipo-GrupoAVAL"
+          src='https://i.imgur.com/tOYGbin.png'
+          alt='Logotipo Grupo AVAL'
+          />
+        </div>
     </React.Fragment>
   );
 }

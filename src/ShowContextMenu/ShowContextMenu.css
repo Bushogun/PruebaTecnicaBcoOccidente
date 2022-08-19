@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+.d-flex {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.d-flex a {
+  margin-left: 100px;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.d-flex a:hover {
+  border-bottom: 3px solid rgb(21, 88, 211);
+}
+
+.d-flex a.active {
+  border-bottom: 3px solid rgb(37, 22, 176);
+}
+/* TOP NAVV */
+
+.explanation-text{
+    color: #1b8dce;
+    padding: 20px;
+    margin-left: 20%;
+}
+
+/* Cards */
+/* .d-flexCard{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    justify-content: center !important;
+    display: flex !important;
+}
+.card-continue{
+    text-decoration: none !important;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    transition: all 500ms ease;
+    justify-content: center !important;
+}
+
+
+.card{
+    height: 120px;
+    width: 120px ;
+    margin: 30px;
+} */
+
+
+
+
+#container-card{
+    width: 14rem; 
+    height: 14rem;
+  }
+  
+  #description{
+    text-decoration:none; 
+    padding-bottom: 10px;
+  }
+  #continuar-boton{
+    background-color: #e8ecee; 
+    padding: 10px
+  }
+  .options-icon{
+    padding: 15% 5% 5% 5%;
+  }
+
+/* img{
+    padding: 15% 5% 5% 5%;
+} */

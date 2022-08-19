@@ -4,13 +4,9 @@ function Body() {
   return (
     <React.Fragment>
 
-      <button>
-        ←
-      </button>
-
-      <div className='companyName'>Flotas la Macarena</div>
-      <div className='nit'>NIT: 800 220 154 </div>
-      <div className='capa'>Capa: Oro * Segmento:A </div>
+      <div className='d-flex justify-content-center'>Flotas la Macarena</div>
+      <div className='d-flex justify-content-center'>NIT: 800 220 154 </div>
+      <div className='d-flex justify-content-center'>Capa: Oro * Segmento:A </div>
 
 
     </React.Fragment>
