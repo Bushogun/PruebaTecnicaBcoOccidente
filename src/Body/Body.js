@@ -1,15 +1,15 @@
 import React from 'react'
 
-function Body() {
+
+function Body(props) {
+
   return (
-    <React.Fragment>
-
-      <div className='d-flex justify-content-center'>Flotas la Macarena</div>
-      <div className='d-flex justify-content-center'>NIT: 800 220 154 </div>
-      <div className='d-flex justify-content-center'>Capa: Oro * Segmento:A </div>
-
-
-    </React.Fragment>
+    <>
+      <div className='d-flex justify-content-center'>{props.data.nombre}</div>
+      <div className='d-flex justify-content-center'> NIT: {props.data.nit}</div>
+      <div className='d-flex justify-content-center'>Capa: {props.data.capa} * Segmento: {props.data.segmento}</div>
+      
+    </>
   );
 }
 
