@@ -1,0 +1,46 @@
+#contextMenu__item{
+margin: 0px 20px 0px 20px;
+width: 180px;
+}
+
+*{
+    box-sizing: border-box;
+}
+#explanationContext{
+  padding-left: 0px;
+}
+.d-flex {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.d-flex button {
+  margin-left: 100px;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.d-flex button:hover {
+  border-bottom: 3px solid #158acd;
+}
+
+.d-flex button.active {
+  border-bottom: 3px solid #158acd;
+}
+
+.unActive{
+  background-color: #fff
+}
+/* TOP NAVV */
+
+@media (max-width: 320px) {
+  #contxtmnu{
+    display: none !important;
+  }
+}

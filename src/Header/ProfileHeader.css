@@ -1,0 +1,29 @@
+#profile-picture{
+    position: absolute;
+    width: 40px; 
+    height: 40px; 
+    float: right !important;
+    margin-left: 60%;
+}
+
+#user-name{
+    position: absolute;
+    font-size: 15px;
+   margin-left: 50%;
+    
+}
+
+#proffesion{
+    position: absolute;
+    font-size: 10px;
+    margin-top: 20px;
+   margin-left: 50%;
+}
+
+@media (max-width: 768px) {
+    #proffesion, #user-name, #profile-picture{
+        display: none;
+    }
+}
+
+

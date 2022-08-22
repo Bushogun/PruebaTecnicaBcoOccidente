@@ -1,0 +1,27 @@
+#title-client{
+    padding-top: 30px;
+    font-size: larger;
+    font-weight: bolder;
+    color: #263247
+}
+#nit-info{
+    color: #8292a9;
+    margin: 5px;
+}
+#infoComplementary{
+    font-weight: bolder;
+    font-size: 12px;
+    color: #1f2b41;
+}
+
+{/*@media (max-width: 768px) {*/}
+@media (max-width: 320px) {
+    #title-client{
+        padding-top: 30px;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #263247
+    }
+}
+
+

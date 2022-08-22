@@ -1,8 +1,16 @@
-*{
-    background-color: #fff !important;
+.d-flex align-items-end flex-column{
+    background-color: #fff;
 }
 #Logotipo-GrupoAVAL{
     width: 150px;
     margin: 30px;
+
+}
+
+
+@media (max-width: 768px) {
+    #logo-GA{
+        align-items: center !important;
+    }
 
 }
