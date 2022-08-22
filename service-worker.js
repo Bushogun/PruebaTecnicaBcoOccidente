@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PruebaTecnicaBcoOccidente/precache-manifest.3559548a8ecfc180745f803347335b5a.js"
+  "/PruebaTecnicaBcoOccidente/precache-manifest.24208492ee352fcfacbc3f02dd43cf77.js"
 );
 
 workbox.clientsClaim();

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "56fc48c6d579f55e0731",
-    "url": "/PruebaTecnicaBcoOccidente/static/css/main.24bcef23.chunk.css"
+    "revision": "7baf43d2ff0910f08f35",
+    "url": "/PruebaTecnicaBcoOccidente/static/css/main.357b9e9e.chunk.css"
   },
   {
-    "revision": "56fc48c6d579f55e0731",
-    "url": "/PruebaTecnicaBcoOccidente/static/js/main.56fc48c6.chunk.js"
+    "revision": "7baf43d2ff0910f08f35",
+    "url": "/PruebaTecnicaBcoOccidente/static/js/main.7baf43d2.chunk.js"
   },
   {
     "revision": "dcf8a51ad87f2126417e",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/PruebaTecnicaBcoOccidente/static/js/runtime~main.07357f3c.js"
   },
   {
-    "revision": "698b5868b8dd2dfa32725a559ec25535",
+    "revision": "98e6cd29973c87659d163c35f337965d",
     "url": "/PruebaTecnicaBcoOccidente/index.html"
   }
 ];
