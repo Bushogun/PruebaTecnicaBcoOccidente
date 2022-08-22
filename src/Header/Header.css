@@ -59,7 +59,7 @@ border-color: #ddd;
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
     #Isotipo-nav {
         width: 12%;
         margin: 6px;
@@ -74,9 +74,6 @@ border-color: #ddd;
 
     #ocultar{
         display: inline-block;
-    }
-
-    #container-header{
     }
 
 }

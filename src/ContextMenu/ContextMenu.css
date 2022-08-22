@@ -39,7 +39,7 @@ width: 180px;
 }
 /* TOP NAVV */
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
   #contxtmnu{
     display: none !important;
   }
